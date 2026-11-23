@@ -1,4 +1,4 @@
-name: First Workflow
+name: First Workfloww
 
 on:
   push:
@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Print a Welcome Message
-              run: echo "Saluuuut"
+              run: echo "bonjour"
