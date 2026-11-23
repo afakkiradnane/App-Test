@@ -9,5 +9,6 @@ jobs:
     exemple-job:
         runs-on: ubuntu-latest
         steps:
-            - name: Print a Welcome Message
-              run: echo "bonjorno"
+            - name: Checkout repository
+              uses: actions/checkout@v7
+              run: echo "Hello World"
